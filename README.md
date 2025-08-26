@@ -4,12 +4,12 @@ A simple tool that creates schedules by assigning courses to rooms and time slot
 
 ---
 
-* **Main algorithm** — `ScheduleSolver#solve`
-* **Search method** — `ScheduleSolver#find_schedule`
-* **Availability checks** — `ScheduleSolver#instructor_too_busy?`, `ScheduleSolver#can_schedule_here?`
-* **Time management** — `ScheduleSolver#mark_time_busy`
-* **Quality scoring** — `ScheduleSolver#calculate_score`
-* **Web API** — `V1::ScheduleController#solve`
+* **Main algorithm** — [`ScheduleSolver#solve`](https://github.com/muratatak77/course_scheduler/blob/main/app/services/schedule_solver.rb#L35)
+* **Search method** — [`ScheduleSolver#find_schedule`](https://github.com/muratatak77/course_scheduler/blob/main/app/services/schedule_solver.rb#L50)
+* **Availability checks** — [`ScheduleSolver#instructor_too_busy?`, `ScheduleSolver#can_schedule_here?` ](https://github.com/muratatak77/course_scheduler/blob/main/app/services/schedule_solver.rb#L95)
+* **Time management** — [`ScheduleSolver#mark_time_busy`](https://github.com/muratatak77/course_scheduler/blob/main/app/services/schedule_solver.rb#L116)
+* **Quality scoring** — [`ScheduleSolver#calculate_score`](https://github.com/muratatak77/course_scheduler/blob/main/app/services/schedule_solver.rb#L124)
+* **Web API** — [`V1::ScheduleController#solve`](https://github.com/muratatak77/course_scheduler/blob/main/app/controllers/v1/schedule_controller.rb)
 
 ## What This Does
 
