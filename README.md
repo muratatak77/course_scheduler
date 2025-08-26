@@ -64,8 +64,8 @@ If any rule is broken, that option is rejected.
 
 ### Preferred Conditions (Affect Score)
 
-* **Morning classes preferred** (`start_slot < 24`): **+1 point** per morning class
-* **Avoid back-to-back teaching**: **-1 point** when same teacher has classes too close together
+* **Morning classes preferred** (`start_slot < 24`)
+* **Avoid back-to-back teaching**
 
 The final score adds up all these points. No randomness is used.
 
